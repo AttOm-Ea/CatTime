@@ -90,14 +90,16 @@ const Game = () => {
                     case 8:
                         arrayPosition[i]= "y3 - x3";
                     break;
+                    default:
+                    break;
                 }
             }
         }  
         return arrayPosition;
     }
-    const pushPosition = (Position) => {
+    const pushPosition = (position) => {
         let numer = null;
-        switch (Position) {
+        switch (position) {
             case "y1 - x1":
                 document.getElementById("0").focus();
             break;
@@ -124,6 +126,8 @@ const Game = () => {
             break;
             case "y3 - x3":
                 document.getElementById("8").focus();
+            break;
+            default:
             break;
         }
         return numer;
