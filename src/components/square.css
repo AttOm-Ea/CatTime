@@ -1,0 +1,13 @@
+.square{
+    width: 8rem;
+    height: 8rem;
+    background-color: aliceblue;
+    border-radius: .4rem;
+    border: none;
+    margin: .2rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.square:focus{
+    background-color: rgba(59, 59, 233, 0.534);
+}

@@ -1,0 +1,51 @@
+.contentMain{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.contentGame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 1rem;
+}
+.btnNewGame{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: cornflowerblue;
+    border-radius: 1rem;
+    color: whitesmoke;
+    border: none;
+    font-weight: 800;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.btnNewGame:focus{
+    outline: none;
+}
+.btnNewGame:hover{
+    padding: 1.2rem;
+    font-size: 1.3rem;
+}
+.contentBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+}
+.contentHistory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 25%;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: rgba(64, 69, 75, 0.281);
+    border-radius: 5rem;
+}

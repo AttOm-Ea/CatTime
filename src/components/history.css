@@ -1,0 +1,10 @@
+.itemList{
+    transition: all 0.3s ease-out;
+}
+.itemList:hover{
+    color: rgb(59, 59, 233);
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 800;
+    
+}
